@@ -14,7 +14,8 @@ Develop a simple Android app that does the following:
 
 Notes:
 - no need to go fancy on material design guidelines, just keep the UI effort to a minimum,
-- the app should complete the work after the "Go" button is pressed even if the device is rotated and the context is recreated,
+- the app should complete the work after the "Go" button is pressed even if the device is rotated and the context is recreated; try to avoid the Fragment.setRetainInstance() when solving this aspect,
+- using an architectural pattern such MVP or MVVM is highly appreciated,
 - free choice of guidelines/frameworks/libraries to use: this choice should reflect what you consider to be the best practice.
 
 What we're looking for:
